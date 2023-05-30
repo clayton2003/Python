@@ -1,0 +1,14 @@
+###
+programa para calcular a quantidade de tinta necessaria para pintar uma parede
+###
+
+rendimento = int(input('quanto é o redimento da lata: ')
+altura = int(input('qual é a altura da parede: ')
+largura = int(input('qual é a largura da parede: ')
+
+def calculo_tinta():
+      area = altura * largura
+      total = area/rendimento
+      print(f'você precisa de {total} latas de tinta para pintar a parede')
+
+calculo_tinta()
